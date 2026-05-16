@@ -4,7 +4,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "clang++ -std=c++20 -O2 -Wall ${file} -o ${fileDirname}/build/${fileBasenameNoExtension}",
+            "command": "mkdir -p ${fileDirname}/build && /opt/homebrew/bin/g++-15 -std=c++20 -O2 -Wall -Wextra ${file} -o ${fileDirname}/build/${fileBasenameNoExtension}",
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -13,7 +13,7 @@
         {
             "label": "build (debug)",
             "type": "shell",
-            "command": "g++ -std=c++20 -O0 -g -Wall -Wextra -fsanitize=undefined,address -D_GLIBCXX_DEBUG ${file} -o ${fileBasenameNoExtension}_dbg",
+            "command": "mkdir -p ${fileDirname}/build && /opt/homebrew/bin/g++-15 -std=c++20 -O0 -g -Wall -Wextra -D_GLIBCXX_DEBUG ${file} -o ${fileDirname}/build/${fileBasenameNoExtension}_dbg",
             "group": "build"
         }
     ]
