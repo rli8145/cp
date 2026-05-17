@@ -4,5 +4,6 @@
         "comments": "off",
         "strings": "off"
     },
-    "editor.suggestOnTriggerCharacters": false
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.tabCompletion": "onlySnippets"
 }
