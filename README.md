@@ -11,6 +11,4 @@ Competitive programming practice
   - Output goes to `build/` in the same directory as the source file
 - **settings.json** — autocomplete off; `Tab` expands snippets
 - **c_cpp_properties.json** — IntelliSense set to C++20
-
-Snippets
-- `!cp` + `Tab` inserts the C++ template
+- **cpp.json** — workspace snippets; `!cp` + `Tab` inserts the C++ template
