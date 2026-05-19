@@ -1,7 +1,7 @@
 Competitive programming practice
 
-- `codeforces/` - miscellaneous Codeforces contests and problems
-- `leetcode/` - miscellaneous LeetCode problems
+- `codeforces/` - Codeforces contests and miscellaneous problems
+- `leetcode/` - miscellaneous LeetCode
 
 `.vscode` configs
 
